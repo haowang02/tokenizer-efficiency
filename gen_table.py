@@ -25,7 +25,7 @@ def main():
     rows.sort(key=lambda x: x["total"])
 
     lines = [
-        "| Model | LP | LP % | AQ | AQ % | PY | PY % | Total | Total % |",
+        "| Model | LP tok | LP % | AQ tok | AQ % | PY tok | PY % | Total tok | Total % |",
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
 
@@ -42,7 +42,7 @@ def main():
 
         is_baseline = r["model"] == "openai/gpt-5.5"
         if is_baseline:
-            name = f"**{name}**"
+            name = f"**{name}** (baseline)"
 
         lines.append(f"| {name} | {lp:,} | {lp_pct}% | {aq:,} | {aq_pct}% | {py:,} | {py_pct}% | {total:,} | {total_pct}% |")
 
