@@ -1,6 +1,6 @@
 # Tokenizer Efficiency Evaluation
 
-Evaluating token efficiency of different LLM tokenizers on English and Chinese text inputs.
+Evaluating token efficiency of different LLM tokenizers on English, Chinese, and Python code inputs.
 
 ## Test Data
 
