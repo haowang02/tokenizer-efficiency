@@ -4,14 +4,18 @@ Evaluating token efficiency of different LLM tokenizers on English and Chinese t
 
 ## Test Data
 
-| Name | Language |
-|------|----------|
-| The Little Prince | English |
-| 阿Q正传 | Chinese |
+| Name | Language | Description |
+|------|----------|------|
+| LP | English | *The Little Prince* by Antoine de Saint-Exupéry |
+| AQ | Chinese | *阿Q正传* by 鲁迅 |
 
 ## Results
 
-| Model           | *The Little Prince* Tokens | vs GPT-5.5 | *阿Q正传* Tokens | vs GPT-5.5 | Total Tokens | Total vs GPT-5.5 |
+- **LP**: *The Little Prince* (English)
+- **AQ**: *阿Q正传* (Chinese)
+- **%**: token count relative to GPT-5.5 / GPT-5.4
+
+| Model | LP Tokens | LP % | AQ Tokens | AQ % | Total | Total % |
 | --------------- | -----------------------: | ---------: | --------------: | ---------: | -----------: | ---------------: |
 | GPT-5.5<br />GPT-5.4 |                   22,676 |     100.0% |          24,341 |     100.0% |       47,017 |           100.0% |
 | Qwen 3.6 Plus   |                   22,442 |      99.0% |          20,569 |      84.5% |       43,011 |            91.5% |
