@@ -1,0 +1,11 @@
+{"model": "openai/gpt-5.5", "lp_en.txt": 22334, "aq_zh.txt": 24341, "py.txt": 20575}
+{"model": "z-ai/glm-5.1", "lp_en.txt": 22496, "aq_zh.txt": 20872, "py.txt": 20477}
+{"model": "moonshotai/kimi-k2.6", "lp_en.txt": 22691, "aq_zh.txt": 19438, "py.txt": 20504}
+{"model": "x-ai/grok-4.3", "lp_en.txt": 22141, "aq_zh.txt": 21457, "py.txt": 20538}
+{"model": "minimax/minimax-m2.7", "lp_en.txt": 22187, "aq_zh.txt": 18470, "py.txt": 20753}
+{"model": "xiaomi/mimo-v2.5-pro", "lp_en.txt": 22791, "aq_zh.txt": 21486, "py.txt": 20766}
+{"model": "deepseek/deepseek-v4-pro", "lp_en.txt": 22685, "aq_zh.txt": 19826, "py.txt": 21734}
+{"model": "qwen/qwen3.6-plus", "lp_en.txt": 22442, "aq_zh.txt": 20569, "py.txt": 21846}
+{"model": "google/gemini-3.1-pro-preview", "lp_en.txt": 23596, "aq_zh.txt": 23648, "py.txt": 23931}
+{"model": "anthropic/claude-opus-4.6", "lp_en.txt": 24367, "aq_zh.txt": 32987, "py.txt": 24852}
+{"model": "anthropic/claude-opus-4.7", "lp_en.txt": 31272, "aq_zh.txt": 33029, "py.txt": 31850}
